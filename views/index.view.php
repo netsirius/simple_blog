@@ -5,7 +5,7 @@
             <div class="post">
                 <article>
                     <h2 class="titulo"><a href="<?php echo RUTA; ?>single.php?id=<?php echo $post['id']; ?>"><?php echo $post['titulo']; ?></a></h2>
-                    <p class="fecha"><?php echo $post['fecha']; ?></p>
+                    <p class="fecha"><?php echo set_date_format($post['fecha']); ?></p>
                     <div class="thumb">
                         <a href="#">
                             <img src="<?php echo RUTA; ?>/images/<?php echo $post['thumb']; ?>" alt="">
