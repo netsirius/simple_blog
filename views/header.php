@@ -18,9 +18,8 @@
             </div>
 
             <div class="derecha">
-                <form name="busqueda" class="buscar" action="<?php echo RUTA; ?>/buscar.php" method="get">
-                    <input type="text" name="busqueda" placeholder="Buscar"><button type="submit" class="icono fa fa-search"></button>
-                    
+                <form name="search" class="buscar" action="<?php echo RUTA; ?>search.php" method="get">
+                    <input type="text" name="search" placeholder="Buscar"><button type="submit" class="icono fa fa-search"></button>
                 </form>
                 <nav class="menu">
                     <ul>
