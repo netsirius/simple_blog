@@ -23,7 +23,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET' && !empty($_GET['search'])){
     if(empty($results)){
         $title = 'No se han encontrado resultados con: ' . $search;
     }else{
-        $titulo = 'Resultados de la búsqueda: ' . $search;
+        $title = 'Resultados de la búsqueda: ' . $search;
     }
 }else{
     header('Location: ' . RUTA . '/index.php');

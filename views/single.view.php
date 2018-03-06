@@ -9,7 +9,7 @@
                 <img src="<?php echo RUTA; ?>/images/<?php echo $post['thumb']; ?>" alt="<?php echo $post['titulo']; ?>">
             </div>
             <p class="extracto">
-                <?php echo $post['texto']; ?>
+                <?php echo nl2br($post['texto']); ?>
             </p>
         </article>
     </div>
