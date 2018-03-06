@@ -85,5 +85,14 @@ function set_date_format($date){
     return $date;
 }
 
+/**
+ * Comprobar la sessión
+ */
+function check_session(){
+    if(!isset($_SESSION['admin'])){
+        header('Location: ' . RUTA);
+    }
+}
+
 
 ?>
