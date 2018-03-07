@@ -8,7 +8,7 @@
         <div class="post">
             <article>
                 <h2 class="titulo"><?php echo $post['id'] . '.-' . $post['titulo']; ?></h2>
-                <a href="editar.php?id=<?php echo $post['id']; ?>">Editar</a>
+                <a href="edit.php?id=<?php echo $post['id']; ?>">Editar</a>
                 <a href="../single.php?id=<?php echo $post['id']; ?>">Ver</a>
                 <a href="delete.php?id=<?php echo $post['id']; ?>">Borrar</a>
             </article>
