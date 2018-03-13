@@ -2,7 +2,7 @@
 
 <div class="contenedor">
     <h2>Panel de conttrol</h2>
-    <a href="new_post.php" class="btn">Nuevo Post</a>
+    <a href="new.php" class="btn">Nuevo Post</a>
     <a href="close.php" class="btn">Cerrar Sesion</a>
     <?php foreach($posts as $post): ?>
         <div class="post">
